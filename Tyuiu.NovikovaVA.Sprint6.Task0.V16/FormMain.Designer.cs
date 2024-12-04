@@ -65,6 +65,8 @@ namespace Tyuiu.NovikovaVA.Sprint6.Task0.V16
             buttonDone_NVA.TabIndex = 4;
             buttonDone_NVA.Text = "Выполнить";
             buttonDone_NVA.UseVisualStyleBackColor = true;
+            buttonDone_NVA.Click += buttonDone_NVA_Click;
+            buttonDone_NVA.KeyPress += textBoxNamedTwo_NVA_KeyPress;
             // 
             // groupBoxData_NVA
             // 
@@ -119,6 +121,7 @@ namespace Tyuiu.NovikovaVA.Sprint6.Task0.V16
             textBoxResult_NVA.ReadOnly = true;
             textBoxResult_NVA.Size = new Size(100, 23);
             textBoxResult_NVA.TabIndex = 0;
+            textBoxResult_NVA.TextChanged += buttonDone_NVA_Click;
             // 
             // textBoxNamedOne_NVA
             // 
@@ -148,6 +151,7 @@ namespace Tyuiu.NovikovaVA.Sprint6.Task0.V16
             buttonHelp_NVA.TabIndex = 9;
             buttonHelp_NVA.Text = "?";
             buttonHelp_NVA.UseVisualStyleBackColor = true;
+            buttonHelp_NVA.Click += buttonHelp_NVA_Click;
             // 
             // FormMain
             // 
