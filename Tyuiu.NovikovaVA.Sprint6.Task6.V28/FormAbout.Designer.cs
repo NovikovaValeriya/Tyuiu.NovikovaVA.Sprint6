@@ -59,9 +59,9 @@
             labelInfo_NVA.AutoSize = true;
             labelInfo_NVA.Location = new Point(279, 55);
             labelInfo_NVA.Name = "labelInfo_NVA";
-            labelInfo_NVA.Size = new Size(113, 45);
+            labelInfo_NVA.Size = new Size(253, 30);
             labelInfo_NVA.TabIndex = 2;
-            labelInfo_NVA.Text = "Разработчик:\r\nНовикова Валерия \r\nИСТНб-24-1\r\n";
+            labelInfo_NVA.Text = "Таск 6 выполнил студент Новикова Валерия \r\nИСТНб-24-1\r\n";
             // 
             // FormAbout_NVA
             // 

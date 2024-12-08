@@ -29,6 +29,6 @@ namespace Tyuiu.NovikovaVA.Sprint6.Task6.V28
             formAbout.ShowDialog();
         }
 
-
+        
     }
 }
