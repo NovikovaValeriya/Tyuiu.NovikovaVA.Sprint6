@@ -44,8 +44,8 @@
             panelKnopki_NVA = new Panel();
             panelTask_NVA = new Panel();
             panelOut_NVA = new Panel();
-            panelIn_NVA = new Panel();
             splitter1_NVA = new Splitter();
+            panelIn_NVA = new Panel();
             groupBoxRes_NVA.SuspendLayout();
             groupBoxOutPut_NVA.SuspendLayout();
             groupBoxTask_NVA.SuspendLayout();
@@ -134,10 +134,9 @@
             // buttonDone_NVA
             // 
             buttonDone_NVA.Image = (Image)resources.GetObject("buttonDone_NVA.Image");
-            buttonDone_NVA.ImageAlign = ContentAlignment.BottomLeft;
-            buttonDone_NVA.Location = new Point(122, 3);
+            buttonDone_NVA.Location = new Point(122, 13);
             buttonDone_NVA.Name = "buttonDone_NVA";
-            buttonDone_NVA.Size = new Size(188, 107);
+            buttonDone_NVA.Size = new Size(192, 97);
             buttonDone_NVA.TabIndex = 19;
             toolTipOne_NVA.SetToolTip(buttonDone_NVA, "\r\nВывести предпоследнее слово каждой строки в результирующею строку и вывести ее в textBoxOut.\r\n");
             buttonDone_NVA.UseVisualStyleBackColor = true;
@@ -192,14 +191,6 @@
             panelOut_NVA.Size = new Size(519, 353);
             panelOut_NVA.TabIndex = 23;
             // 
-            // panelIn_NVA
-            // 
-            panelIn_NVA.Controls.Add(groupBoxOutPut_NVA);
-            panelIn_NVA.Location = new Point(527, 242);
-            panelIn_NVA.Name = "panelIn_NVA";
-            panelIn_NVA.Size = new Size(531, 351);
-            panelIn_NVA.TabIndex = 24;
-            // 
             // splitter1_NVA
             // 
             splitter1_NVA.Location = new Point(0, 0);
@@ -207,6 +198,14 @@
             splitter1_NVA.Size = new Size(3, 353);
             splitter1_NVA.TabIndex = 16;
             splitter1_NVA.TabStop = false;
+            // 
+            // panelIn_NVA
+            // 
+            panelIn_NVA.Controls.Add(groupBoxOutPut_NVA);
+            panelIn_NVA.Location = new Point(527, 242);
+            panelIn_NVA.Name = "panelIn_NVA";
+            panelIn_NVA.Size = new Size(531, 351);
+            panelIn_NVA.TabIndex = 24;
             // 
             // FormMain
             // 
