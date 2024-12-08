@@ -118,9 +118,9 @@
             buttonOpenFile_NVA.Name = "buttonOpenFile_NVA";
             buttonOpenFile_NVA.Size = new Size(94, 87);
             buttonOpenFile_NVA.TabIndex = 18;
-            toolTipOne_NVA.SetToolTip(buttonOpenFile_NVA, "Подсказка\r\nоткрыть файл\r\nвыберите нужный файл для обработки");
+            toolTipOne_NVA.SetToolTip(buttonOpenFile_NVA, "\r\nоткрыть файл\r\nвыберите нужный файл для обработки");
             buttonOpenFile_NVA.UseVisualStyleBackColor = true;
-            buttonOpenFile_NVA.Click += buttonOpenFile_KDM_Click;
+            buttonOpenFile_NVA.Click += buttonOpenFile_NVA_Click;
             // 
             // buttonDone_NVA
             // 
@@ -130,7 +130,7 @@
             buttonDone_NVA.Name = "buttonDone_NVA";
             buttonDone_NVA.Size = new Size(188, 107);
             buttonDone_NVA.TabIndex = 19;
-            toolTipOne_NVA.SetToolTip(buttonDone_NVA, "Подсказка\r\nВывести предпоследнее слово каждой строки в результирующею строку и вывести ее в textBoxOut.\r\n");
+            toolTipOne_NVA.SetToolTip(buttonDone_NVA, "\r\nВывести предпоследнее слово каждой строки в результирующею строку и вывести ее в textBoxOut.\r\n");
             buttonDone_NVA.UseVisualStyleBackColor = true;
             buttonDone_NVA.Click += buttonDone_NVA_Click;
             // 
@@ -141,6 +141,7 @@
             // toolTipOne_NVA
             // 
             toolTipOne_NVA.ToolTipIcon = ToolTipIcon.Info;
+            toolTipOne_NVA.ToolTipTitle = "Подсказка";
             // 
             // buttonHelp_NVA
             // 
@@ -151,9 +152,9 @@
             buttonHelp_NVA.Size = new Size(95, 83);
             buttonHelp_NVA.TabIndex = 20;
             buttonHelp_NVA.TextAlign = ContentAlignment.MiddleRight;
-            toolTipOne_NVA.SetToolTip(buttonHelp_NVA, "подсказка\r\nдоп инфо");
+            toolTipOne_NVA.SetToolTip(buttonHelp_NVA, "Сведения о программе");
             buttonHelp_NVA.UseVisualStyleBackColor = false;
-            buttonHelp_NVA.Click += buttonHelp_KDM_Click;
+            buttonHelp_NVA.Click += buttonHelp_NVA_Click;
             // 
             // FormMain
             // 

@@ -10,7 +10,7 @@ namespace Tyuiu.NovikovaVA.Sprint6.Task6.V28
         string openFilePath;
         DataService ds = new DataService();
 
-        private void buttonOpenFile_KDM_Click(object sender, EventArgs e)
+        private void buttonOpenFile_NVA_Click(object sender, EventArgs e)
         {
             openFileDialog_NVA.ShowDialog();
             openFilePath = openFileDialog_NVA.FileName;
@@ -23,7 +23,7 @@ namespace Tyuiu.NovikovaVA.Sprint6.Task6.V28
             string str = "";
             textBoxOutPut_NVA.Text = ds.CollectTextFromFile(str, openFilePath);
         }
-        private void buttonHelp_KDM_Click(object sender, EventArgs e)
+        private void buttonHelp_NVA_Click(object sender, EventArgs e)
         {
             FormAbout_NVA formAbout = new FormAbout_NVA();
             formAbout.ShowDialog();
