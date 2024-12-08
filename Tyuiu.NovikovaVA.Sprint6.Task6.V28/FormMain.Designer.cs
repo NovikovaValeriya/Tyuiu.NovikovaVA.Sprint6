@@ -61,7 +61,7 @@
             groupBoxIn_NVA.Dock = DockStyle.Fill;
             groupBoxIn_NVA.Location = new Point(0, 0);
             groupBoxIn_NVA.Name = "groupBoxIn_NVA";
-            groupBoxIn_NVA.Size = new Size(467, 558);
+            groupBoxIn_NVA.Size = new Size(490, 398);
             groupBoxIn_NVA.TabIndex = 15;
             groupBoxIn_NVA.TabStop = false;
             groupBoxIn_NVA.Text = "Ввод :";
@@ -76,7 +76,7 @@
             textBoxIn_NVA.Name = "textBoxIn_NVA";
             textBoxIn_NVA.ReadOnly = true;
             textBoxIn_NVA.ScrollBars = ScrollBars.Vertical;
-            textBoxIn_NVA.Size = new Size(461, 536);
+            textBoxIn_NVA.Size = new Size(484, 376);
             textBoxIn_NVA.TabIndex = 0;
             // 
             // groupBoxOut_NVA
@@ -85,7 +85,7 @@
             groupBoxOut_NVA.Dock = DockStyle.Fill;
             groupBoxOut_NVA.Location = new Point(0, 0);
             groupBoxOut_NVA.Name = "groupBoxOut_NVA";
-            groupBoxOut_NVA.Size = new Size(444, 558);
+            groupBoxOut_NVA.Size = new Size(641, 395);
             groupBoxOut_NVA.TabIndex = 16;
             groupBoxOut_NVA.TabStop = false;
             groupBoxOut_NVA.Text = "Вывод :";
@@ -100,7 +100,7 @@
             textBoxOut_NVA.Name = "textBoxOut_NVA";
             textBoxOut_NVA.ReadOnly = true;
             textBoxOut_NVA.ScrollBars = ScrollBars.Vertical;
-            textBoxOut_NVA.Size = new Size(438, 536);
+            textBoxOut_NVA.Size = new Size(635, 373);
             textBoxOut_NVA.TabIndex = 0;
             // 
             // groupBoxTask_NVA
@@ -109,7 +109,7 @@
             groupBoxTask_NVA.Dock = DockStyle.Fill;
             groupBoxTask_NVA.Location = new Point(0, 0);
             groupBoxTask_NVA.Name = "groupBoxTask_NVA";
-            groupBoxTask_NVA.Size = new Size(256, 331);
+            groupBoxTask_NVA.Size = new Size(1113, 151);
             groupBoxTask_NVA.TabIndex = 17;
             groupBoxTask_NVA.TabStop = false;
             groupBoxTask_NVA.Text = "Условие";
@@ -122,7 +122,7 @@
             textBoxUslovie_NVA.Multiline = true;
             textBoxUslovie_NVA.Name = "textBoxUslovie_NVA";
             textBoxUslovie_NVA.ReadOnly = true;
-            textBoxUslovie_NVA.Size = new Size(250, 309);
+            textBoxUslovie_NVA.Size = new Size(1107, 129);
             textBoxUslovie_NVA.TabIndex = 0;
             textBoxUslovie_NVA.Text = resources.GetString("textBoxUslovie_NVA.Text");
             // 
@@ -161,7 +161,7 @@
             // 
             buttonHelp_NVA.BackColor = SystemColors.ControlLight;
             buttonHelp_NVA.Image = Properties.Resources.a09224106d6369ee30bdd8a93ac78a18f1611c9d_medium;
-            buttonHelp_NVA.Location = new Point(1050, 27);
+            buttonHelp_NVA.Location = new Point(974, 20);
             buttonHelp_NVA.Name = "buttonHelp_NVA";
             buttonHelp_NVA.Size = new Size(95, 83);
             buttonHelp_NVA.TabIndex = 20;
@@ -184,43 +184,41 @@
             // panelTask_NVA
             // 
             panelTask_NVA.Controls.Add(groupBoxTask_NVA);
-            panelTask_NVA.Location = new Point(495, 133);
+            panelTask_NVA.Location = new Point(12, 133);
             panelTask_NVA.Name = "panelTask_NVA";
-            panelTask_NVA.Size = new Size(256, 331);
+            panelTask_NVA.Size = new Size(1113, 151);
             panelTask_NVA.TabIndex = 22;
             // 
             // panelOut_NVA
             // 
             panelOut_NVA.Controls.Add(splitter1_NVA);
             panelOut_NVA.Controls.Add(groupBoxIn_NVA);
-            panelOut_NVA.Dock = DockStyle.Left;
-            panelOut_NVA.Location = new Point(0, 127);
+            panelOut_NVA.Location = new Point(0, 287);
             panelOut_NVA.Name = "panelOut_NVA";
-            panelOut_NVA.Size = new Size(467, 558);
+            panelOut_NVA.Size = new Size(490, 398);
             panelOut_NVA.TabIndex = 23;
             // 
             // splitter1_NVA
             // 
             splitter1_NVA.Location = new Point(0, 0);
             splitter1_NVA.Name = "splitter1_NVA";
-            splitter1_NVA.Size = new Size(3, 558);
+            splitter1_NVA.Size = new Size(3, 398);
             splitter1_NVA.TabIndex = 16;
             splitter1_NVA.TabStop = false;
             // 
             // panelIn_NVA
             // 
             panelIn_NVA.Controls.Add(groupBoxOut_NVA);
-            panelIn_NVA.Dock = DockStyle.Right;
-            panelIn_NVA.Location = new Point(776, 127);
+            panelIn_NVA.Location = new Point(579, 290);
             panelIn_NVA.Name = "panelIn_NVA";
-            panelIn_NVA.Size = new Size(444, 558);
+            panelIn_NVA.Size = new Size(641, 395);
             panelIn_NVA.TabIndex = 24;
             // 
             // FormMain
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1220, 685);
+            ClientSize = new Size(1220, 645);
             Controls.Add(panelIn_NVA);
             Controls.Add(panelTask_NVA);
             Controls.Add(panelOut_NVA);

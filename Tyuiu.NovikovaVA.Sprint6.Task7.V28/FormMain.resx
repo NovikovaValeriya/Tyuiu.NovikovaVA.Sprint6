@@ -117,61 +117,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="textBoxUslovie_NVA.Text" xml:space="preserve">
-    <value>Дан файл InPutFileTask6V28.txt который может находится в любом месте на диске. Загрузить файл в textBoxIn через openFileDialog. Вывести предпоследнее слово каждой строки в результирующею строку и вывести ее в textBoxOut.</value>
-  </data>
   <metadata name="toolTip_NVA.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>155, 15</value>
   </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="buttonGet_NVA.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        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
-        AGB3jhz5H6Q55dkLdHR2AAAAAElFTkSuQmCC
-</value>
+  <data name="textBoxUslovie_NVA.Text" xml:space="preserve">
+    <value>Дан файл InPutFileTask7V28.csv в котором хранится матрица целочисленных значений. Загрузить файл через openFileDialog в объект dataGridViewIn. Изменить в седьмой строке числа не равные 13 на 0. Результат вывести в объект dataGridViewOut. Сохранить результат в файл OutPutFileTask7.csv через saveFileDialog.</value>
   </data>
-  <metadata name="openFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="openFileDialogTask_NVA.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
   <metadata name="toolTip_NVA.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>155, 15</value>
   </metadata>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>62</value>
+  <metadata name="saveFileDialogMatrix_NVA.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>274, 15</value>
   </metadata>
 </root>
