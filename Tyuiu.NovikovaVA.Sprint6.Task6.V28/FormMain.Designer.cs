@@ -45,6 +45,7 @@
             panelTask_NVA = new Panel();
             panelOut_NVA = new Panel();
             panelIn_NVA = new Panel();
+            splitter1_NVA = new Splitter();
             groupBoxRes_NVA.SuspendLayout();
             groupBoxOutPut_NVA.SuspendLayout();
             groupBoxTask_NVA.SuspendLayout();
@@ -184,6 +185,7 @@
             // 
             // panelOut_NVA
             // 
+            panelOut_NVA.Controls.Add(splitter1_NVA);
             panelOut_NVA.Controls.Add(groupBoxRes_NVA);
             panelOut_NVA.Location = new Point(2, 240);
             panelOut_NVA.Name = "panelOut_NVA";
@@ -197,6 +199,14 @@
             panelIn_NVA.Name = "panelIn_NVA";
             panelIn_NVA.Size = new Size(531, 351);
             panelIn_NVA.TabIndex = 24;
+            // 
+            // splitter1_NVA
+            // 
+            splitter1_NVA.Location = new Point(0, 0);
+            splitter1_NVA.Name = "splitter1_NVA";
+            splitter1_NVA.Size = new Size(3, 353);
+            splitter1_NVA.TabIndex = 16;
+            splitter1_NVA.TabStop = false;
             // 
             // FormMain
             // 
@@ -240,5 +250,6 @@
         private Panel panelTask_NVA;
         private Panel panelOut_NVA;
         private Panel panelIn_NVA;
+        private Splitter splitter1_NVA;
     }
 }
