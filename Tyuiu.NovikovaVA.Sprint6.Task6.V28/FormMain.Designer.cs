@@ -30,8 +30,8 @@
         {
             components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
-            groupBoxRes_NVA = new GroupBox();
-            textBoxRes_NVA = new TextBox();
+            groupBoxIn_NVA = new GroupBox();
+            textBoxIn_NVA = new TextBox();
             groupBoxOutPut_NVA = new GroupBox();
             textBoxOutPut_NVA = new TextBox();
             groupBoxTask_NVA = new GroupBox();
@@ -46,7 +46,7 @@
             panelOut_NVA = new Panel();
             splitter1_NVA = new Splitter();
             panelIn_NVA = new Panel();
-            groupBoxRes_NVA.SuspendLayout();
+            groupBoxIn_NVA.SuspendLayout();
             groupBoxOutPut_NVA.SuspendLayout();
             groupBoxTask_NVA.SuspendLayout();
             panelKnopki_NVA.SuspendLayout();
@@ -55,27 +55,27 @@
             panelIn_NVA.SuspendLayout();
             SuspendLayout();
             // 
-            // groupBoxRes_NVA
+            // groupBoxIn_NVA
             // 
-            groupBoxRes_NVA.Controls.Add(textBoxRes_NVA);
-            groupBoxRes_NVA.Location = new Point(10, 13);
-            groupBoxRes_NVA.Name = "groupBoxRes_NVA";
-            groupBoxRes_NVA.Size = new Size(491, 362);
-            groupBoxRes_NVA.TabIndex = 15;
-            groupBoxRes_NVA.TabStop = false;
-            groupBoxRes_NVA.Text = "Ввод :";
+            groupBoxIn_NVA.Controls.Add(textBoxIn_NVA);
+            groupBoxIn_NVA.Location = new Point(10, 13);
+            groupBoxIn_NVA.Name = "groupBoxIn_NVA";
+            groupBoxIn_NVA.Size = new Size(491, 362);
+            groupBoxIn_NVA.TabIndex = 15;
+            groupBoxIn_NVA.TabStop = false;
+            groupBoxIn_NVA.Text = "Ввод :";
             // 
-            // textBoxRes_NVA
+            // textBoxIn_NVA
             // 
-            textBoxRes_NVA.BackColor = SystemColors.ButtonHighlight;
-            textBoxRes_NVA.Font = new Font("Consolas", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            textBoxRes_NVA.Location = new Point(6, 35);
-            textBoxRes_NVA.Multiline = true;
-            textBoxRes_NVA.Name = "textBoxRes_NVA";
-            textBoxRes_NVA.ReadOnly = true;
-            textBoxRes_NVA.ScrollBars = ScrollBars.Vertical;
-            textBoxRes_NVA.Size = new Size(479, 327);
-            textBoxRes_NVA.TabIndex = 0;
+            textBoxIn_NVA.BackColor = SystemColors.ButtonHighlight;
+            textBoxIn_NVA.Font = new Font("Consolas", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            textBoxIn_NVA.Location = new Point(6, 35);
+            textBoxIn_NVA.Multiline = true;
+            textBoxIn_NVA.Name = "textBoxIn_NVA";
+            textBoxIn_NVA.ReadOnly = true;
+            textBoxIn_NVA.ScrollBars = ScrollBars.Vertical;
+            textBoxIn_NVA.Size = new Size(479, 327);
+            textBoxIn_NVA.TabIndex = 0;
             // 
             // groupBoxOutPut_NVA
             // 
@@ -91,7 +91,7 @@
             // 
             textBoxOutPut_NVA.BackColor = SystemColors.ButtonHighlight;
             textBoxOutPut_NVA.Font = new Font("Consolas", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            textBoxOutPut_NVA.Location = new Point(12, 29);
+            textBoxOutPut_NVA.Location = new Point(21, 29);
             textBoxOutPut_NVA.Multiline = true;
             textBoxOutPut_NVA.Name = "textBoxOutPut_NVA";
             textBoxOutPut_NVA.ReadOnly = true;
@@ -185,7 +185,7 @@
             // panelOut_NVA
             // 
             panelOut_NVA.Controls.Add(splitter1_NVA);
-            panelOut_NVA.Controls.Add(groupBoxRes_NVA);
+            panelOut_NVA.Controls.Add(groupBoxIn_NVA);
             panelOut_NVA.Location = new Point(2, 240);
             panelOut_NVA.Name = "panelOut_NVA";
             panelOut_NVA.Size = new Size(519, 353);
@@ -219,8 +219,8 @@
             Name = "FormMain";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Спринт 6 | Таск 6 | Вариант 28 | Новикова В. А.";
-            groupBoxRes_NVA.ResumeLayout(false);
-            groupBoxRes_NVA.PerformLayout();
+            groupBoxIn_NVA.ResumeLayout(false);
+            groupBoxIn_NVA.PerformLayout();
             groupBoxOutPut_NVA.ResumeLayout(false);
             groupBoxOutPut_NVA.PerformLayout();
             groupBoxTask_NVA.ResumeLayout(false);
@@ -234,8 +234,8 @@
 
         #endregion
 
-        private GroupBox groupBoxRes_NVA;
-        private TextBox textBoxRes_NVA;
+        private GroupBox groupBoxIn_NVA;
+        private TextBox textBoxIn_NVA;
         private GroupBox groupBoxOutPut_NVA;
         private TextBox textBoxOutPut_NVA;
         private GroupBox groupBoxTask_NVA;

@@ -14,8 +14,8 @@ namespace Tyuiu.NovikovaVA.Sprint6.Task6.V28
         {
             openFileDialog_NVA.ShowDialog();
             openFilePath = openFileDialog_NVA.FileName;
-            textBoxRes_NVA.Text = File.ReadAllText(openFilePath);
-            groupBoxRes_NVA.Text = groupBoxRes_NVA.Text + " " + openFileDialog_NVA.FileName;
+            textBoxIn_NVA.Text = File.ReadAllText(openFilePath);
+            groupBoxIn_NVA.Text = groupBoxIn_NVA.Text + " " + openFileDialog_NVA.FileName;
             buttonDone_NVA.Enabled = true;
         }
         private void buttonDone_NVA_Click(object sender, EventArgs e)
