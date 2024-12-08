@@ -13,15 +13,15 @@ namespace Tyuiu.NovikovaVA.Sprint6.Task6.V28.Lib
                 string line;
                 while ((line = reader.ReadLine()) != null)
                 {
-                    string[] words = line.Split(' ');
-                    for (int i = 1; i < words.Length; i++)
+                    string[] mas = line.Split(' ');
+                    for (int i = 0; i < mas.Length - 1; i++)
                     {
-                        if (i == words.Length - 2)
-                            resStr = resStr + " " + words[i];
+                        resStr += mas[mas.Length - 2] + " ";
+                        break;
                     }
                 }
             }
-            return resStr;
+            return resStr.Trim();
         }
     }
 }
