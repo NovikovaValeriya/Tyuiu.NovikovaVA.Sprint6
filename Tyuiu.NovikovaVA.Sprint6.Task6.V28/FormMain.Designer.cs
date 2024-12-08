@@ -41,15 +41,23 @@
             openFileDialog_NVA = new OpenFileDialog();
             toolTipOne_NVA = new ToolTip(components);
             buttonHelp_NVA = new Button();
+            panelKnopki_NVA = new Panel();
+            panelTask_NVA = new Panel();
+            panelOut_NVA = new Panel();
+            panelIn_NVA = new Panel();
             groupBoxRes_NVA.SuspendLayout();
             groupBoxOutPut_NVA.SuspendLayout();
             groupBoxTask_NVA.SuspendLayout();
+            panelKnopki_NVA.SuspendLayout();
+            panelTask_NVA.SuspendLayout();
+            panelOut_NVA.SuspendLayout();
+            panelIn_NVA.SuspendLayout();
             SuspendLayout();
             // 
             // groupBoxRes_NVA
             // 
             groupBoxRes_NVA.Controls.Add(textBoxRes_NVA);
-            groupBoxRes_NVA.Location = new Point(23, 240);
+            groupBoxRes_NVA.Location = new Point(10, 13);
             groupBoxRes_NVA.Name = "groupBoxRes_NVA";
             groupBoxRes_NVA.Size = new Size(491, 362);
             groupBoxRes_NVA.TabIndex = 15;
@@ -71,7 +79,7 @@
             // groupBoxOutPut_NVA
             // 
             groupBoxOutPut_NVA.Controls.Add(textBoxOutPut_NVA);
-            groupBoxOutPut_NVA.Location = new Point(533, 240);
+            groupBoxOutPut_NVA.Location = new Point(3, 11);
             groupBoxOutPut_NVA.Name = "groupBoxOutPut_NVA";
             groupBoxOutPut_NVA.Size = new Size(519, 362);
             groupBoxOutPut_NVA.TabIndex = 16;
@@ -82,7 +90,7 @@
             // 
             textBoxOutPut_NVA.BackColor = SystemColors.ButtonHighlight;
             textBoxOutPut_NVA.Font = new Font("Consolas", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            textBoxOutPut_NVA.Location = new Point(6, 35);
+            textBoxOutPut_NVA.Location = new Point(12, 29);
             textBoxOutPut_NVA.Multiline = true;
             textBoxOutPut_NVA.Name = "textBoxOutPut_NVA";
             textBoxOutPut_NVA.ReadOnly = true;
@@ -93,9 +101,9 @@
             // groupBoxTask_NVA
             // 
             groupBoxTask_NVA.Controls.Add(textBoxUslovie_NVA);
-            groupBoxTask_NVA.Location = new Point(12, 149);
+            groupBoxTask_NVA.Location = new Point(10, 7);
             groupBoxTask_NVA.Name = "groupBoxTask_NVA";
-            groupBoxTask_NVA.Size = new Size(1033, 72);
+            groupBoxTask_NVA.Size = new Size(1037, 84);
             groupBoxTask_NVA.TabIndex = 17;
             groupBoxTask_NVA.TabStop = false;
             groupBoxTask_NVA.Text = "Условие";
@@ -107,14 +115,14 @@
             textBoxUslovie_NVA.Multiline = true;
             textBoxUslovie_NVA.Name = "textBoxUslovie_NVA";
             textBoxUslovie_NVA.ReadOnly = true;
-            textBoxUslovie_NVA.Size = new Size(972, 63);
+            textBoxUslovie_NVA.Size = new Size(967, 44);
             textBoxUslovie_NVA.TabIndex = 0;
             textBoxUslovie_NVA.Text = resources.GetString("textBoxUslovie_NVA.Text");
             // 
             // buttonOpenFile_NVA
             // 
             buttonOpenFile_NVA.Image = Properties.Resources.seo_social_web_network_internet_25_icon_icons_com_61513;
-            buttonOpenFile_NVA.Location = new Point(23, 32);
+            buttonOpenFile_NVA.Location = new Point(6, 23);
             buttonOpenFile_NVA.Name = "buttonOpenFile_NVA";
             buttonOpenFile_NVA.Size = new Size(94, 87);
             buttonOpenFile_NVA.TabIndex = 18;
@@ -126,7 +134,7 @@
             // 
             buttonDone_NVA.Image = (Image)resources.GetObject("buttonDone_NVA.Image");
             buttonDone_NVA.ImageAlign = ContentAlignment.BottomLeft;
-            buttonDone_NVA.Location = new Point(139, 12);
+            buttonDone_NVA.Location = new Point(122, 3);
             buttonDone_NVA.Name = "buttonDone_NVA";
             buttonDone_NVA.Size = new Size(188, 107);
             buttonDone_NVA.TabIndex = 19;
@@ -147,7 +155,7 @@
             // 
             buttonHelp_NVA.BackColor = SystemColors.ControlLight;
             buttonHelp_NVA.Image = Properties.Resources.a09224106d6369ee30bdd8a93ac78a18f1611c9d_medium;
-            buttonHelp_NVA.Location = new Point(874, 44);
+            buttonHelp_NVA.Location = new Point(857, 35);
             buttonHelp_NVA.Name = "buttonHelp_NVA";
             buttonHelp_NVA.Size = new Size(95, 83);
             buttonHelp_NVA.TabIndex = 20;
@@ -156,17 +164,49 @@
             buttonHelp_NVA.UseVisualStyleBackColor = false;
             buttonHelp_NVA.Click += buttonHelp_NVA_Click;
             // 
+            // panelKnopki_NVA
+            // 
+            panelKnopki_NVA.Controls.Add(buttonHelp_NVA);
+            panelKnopki_NVA.Controls.Add(buttonDone_NVA);
+            panelKnopki_NVA.Controls.Add(buttonOpenFile_NVA);
+            panelKnopki_NVA.Location = new Point(17, 9);
+            panelKnopki_NVA.Name = "panelKnopki_NVA";
+            panelKnopki_NVA.Size = new Size(1020, 127);
+            panelKnopki_NVA.TabIndex = 21;
+            // 
+            // panelTask_NVA
+            // 
+            panelTask_NVA.Controls.Add(groupBoxTask_NVA);
+            panelTask_NVA.Location = new Point(2, 142);
+            panelTask_NVA.Name = "panelTask_NVA";
+            panelTask_NVA.Size = new Size(1056, 94);
+            panelTask_NVA.TabIndex = 22;
+            // 
+            // panelOut_NVA
+            // 
+            panelOut_NVA.Controls.Add(groupBoxRes_NVA);
+            panelOut_NVA.Location = new Point(2, 240);
+            panelOut_NVA.Name = "panelOut_NVA";
+            panelOut_NVA.Size = new Size(519, 353);
+            panelOut_NVA.TabIndex = 23;
+            // 
+            // panelIn_NVA
+            // 
+            panelIn_NVA.Controls.Add(groupBoxOutPut_NVA);
+            panelIn_NVA.Location = new Point(527, 242);
+            panelIn_NVA.Name = "panelIn_NVA";
+            panelIn_NVA.Size = new Size(531, 351);
+            panelIn_NVA.TabIndex = 24;
+            // 
             // FormMain
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1063, 608);
-            Controls.Add(buttonHelp_NVA);
-            Controls.Add(groupBoxOutPut_NVA);
-            Controls.Add(buttonDone_NVA);
-            Controls.Add(buttonOpenFile_NVA);
-            Controls.Add(groupBoxTask_NVA);
-            Controls.Add(groupBoxRes_NVA);
+            Controls.Add(panelIn_NVA);
+            Controls.Add(panelOut_NVA);
+            Controls.Add(panelTask_NVA);
+            Controls.Add(panelKnopki_NVA);
             Name = "FormMain";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Спринт 6 | Таск 6 | Вариант 28 | Новикова В. А.";
@@ -176,6 +216,10 @@
             groupBoxOutPut_NVA.PerformLayout();
             groupBoxTask_NVA.ResumeLayout(false);
             groupBoxTask_NVA.PerformLayout();
+            panelKnopki_NVA.ResumeLayout(false);
+            panelTask_NVA.ResumeLayout(false);
+            panelOut_NVA.ResumeLayout(false);
+            panelIn_NVA.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -192,5 +236,9 @@
         private OpenFileDialog openFileDialog_NVA;
         private ToolTip toolTipOne_NVA;
         private Button buttonHelp_NVA;
+        private Panel panelKnopki_NVA;
+        private Panel panelTask_NVA;
+        private Panel panelOut_NVA;
+        private Panel panelIn_NVA;
     }
 }
