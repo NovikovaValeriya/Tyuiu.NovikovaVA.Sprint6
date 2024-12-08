@@ -32,12 +32,12 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             groupBoxIn_NVA = new GroupBox();
             textBoxIn_NVA = new TextBox();
-            groupBoxOutPut_NVA = new GroupBox();
+            groupBoxOut_NVA = new GroupBox();
             textBoxOut_NVA = new TextBox();
             groupBoxTask_NVA = new GroupBox();
             textBoxUslovie_NVA = new TextBox();
             buttonOpenFile_NVA = new Button();
-            buttonDone_NVA = new Button();
+            buttonGet_NVA = new Button();
             openFileDialog = new OpenFileDialog();
             toolTipOne_NVA = new ToolTip(components);
             buttonHelp_NVA = new Button();
@@ -47,7 +47,7 @@
             splitter1_NVA = new Splitter();
             panelIn_NVA = new Panel();
             groupBoxIn_NVA.SuspendLayout();
-            groupBoxOutPut_NVA.SuspendLayout();
+            groupBoxOut_NVA.SuspendLayout();
             groupBoxTask_NVA.SuspendLayout();
             panelKnopki_NVA.SuspendLayout();
             panelTask_NVA.SuspendLayout();
@@ -69,34 +69,34 @@
             // 
             textBoxIn_NVA.BackColor = SystemColors.ButtonHighlight;
             textBoxIn_NVA.Font = new Font("Consolas", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            textBoxIn_NVA.Location = new Point(6, 35);
+            textBoxIn_NVA.Location = new Point(6, 54);
             textBoxIn_NVA.Multiline = true;
             textBoxIn_NVA.Name = "textBoxIn_NVA";
             textBoxIn_NVA.ReadOnly = true;
             textBoxIn_NVA.ScrollBars = ScrollBars.Vertical;
-            textBoxIn_NVA.Size = new Size(479, 327);
+            textBoxIn_NVA.Size = new Size(479, 308);
             textBoxIn_NVA.TabIndex = 0;
             // 
-            // groupBoxOutPut_NVA
+            // groupBoxOut_NVA
             // 
-            groupBoxOutPut_NVA.Controls.Add(textBoxOut_NVA);
-            groupBoxOutPut_NVA.Location = new Point(3, 11);
-            groupBoxOutPut_NVA.Name = "groupBoxOutPut_NVA";
-            groupBoxOutPut_NVA.Size = new Size(519, 362);
-            groupBoxOutPut_NVA.TabIndex = 16;
-            groupBoxOutPut_NVA.TabStop = false;
-            groupBoxOutPut_NVA.Text = "Вывод :";
+            groupBoxOut_NVA.Controls.Add(textBoxOut_NVA);
+            groupBoxOut_NVA.Location = new Point(3, 11);
+            groupBoxOut_NVA.Name = "groupBoxOut_NVA";
+            groupBoxOut_NVA.Size = new Size(519, 362);
+            groupBoxOut_NVA.TabIndex = 16;
+            groupBoxOut_NVA.TabStop = false;
+            groupBoxOut_NVA.Text = "Вывод :";
             // 
             // textBoxOut_NVA
             // 
             textBoxOut_NVA.BackColor = SystemColors.ButtonHighlight;
             textBoxOut_NVA.Font = new Font("Consolas", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            textBoxOut_NVA.Location = new Point(21, 29);
+            textBoxOut_NVA.Location = new Point(21, 63);
             textBoxOut_NVA.Multiline = true;
             textBoxOut_NVA.Name = "textBoxOut_NVA";
             textBoxOut_NVA.ReadOnly = true;
             textBoxOut_NVA.ScrollBars = ScrollBars.Vertical;
-            textBoxOut_NVA.Size = new Size(507, 327);
+            textBoxOut_NVA.Size = new Size(507, 293);
             textBoxOut_NVA.TabIndex = 0;
             // 
             // groupBoxTask_NVA
@@ -131,16 +131,16 @@
             buttonOpenFile_NVA.UseVisualStyleBackColor = true;
             buttonOpenFile_NVA.Click += buttonOpenFile_NVA_Click;
             // 
-            // buttonDone_NVA
+            // buttonGet_NVA
             // 
-            buttonDone_NVA.Image = (Image)resources.GetObject("buttonDone_NVA.Image");
-            buttonDone_NVA.Location = new Point(122, 13);
-            buttonDone_NVA.Name = "buttonDone_NVA";
-            buttonDone_NVA.Size = new Size(192, 97);
-            buttonDone_NVA.TabIndex = 19;
-            toolTipOne_NVA.SetToolTip(buttonDone_NVA, "\r\nВывести предпоследнее слово каждой строки в результирующею строку и вывести ее в textBoxOut.\r\n");
-            buttonDone_NVA.UseVisualStyleBackColor = true;
-            buttonDone_NVA.Click += buttonDone_NVA_Click;
+            buttonGet_NVA.Image = (Image)resources.GetObject("buttonGet_NVA.Image");
+            buttonGet_NVA.Location = new Point(122, 13);
+            buttonGet_NVA.Name = "buttonGet_NVA";
+            buttonGet_NVA.Size = new Size(192, 97);
+            buttonGet_NVA.TabIndex = 19;
+            toolTipOne_NVA.SetToolTip(buttonGet_NVA, "\r\nВывести предпоследнее слово каждой строки в результирующею строку и вывести ее в textBoxOut.\r\n");
+            buttonGet_NVA.UseVisualStyleBackColor = true;
+            buttonGet_NVA.Click += buttonDone_NVA_Click;
             // 
             // openFileDialog
             // 
@@ -167,7 +167,7 @@
             // panelKnopki_NVA
             // 
             panelKnopki_NVA.Controls.Add(buttonHelp_NVA);
-            panelKnopki_NVA.Controls.Add(buttonDone_NVA);
+            panelKnopki_NVA.Controls.Add(buttonGet_NVA);
             panelKnopki_NVA.Controls.Add(buttonOpenFile_NVA);
             panelKnopki_NVA.Location = new Point(17, 9);
             panelKnopki_NVA.Name = "panelKnopki_NVA";
@@ -201,7 +201,7 @@
             // 
             // panelIn_NVA
             // 
-            panelIn_NVA.Controls.Add(groupBoxOutPut_NVA);
+            panelIn_NVA.Controls.Add(groupBoxOut_NVA);
             panelIn_NVA.Location = new Point(527, 242);
             panelIn_NVA.Name = "panelIn_NVA";
             panelIn_NVA.Size = new Size(531, 351);
@@ -221,8 +221,8 @@
             Text = "Спринт 6 | Таск 6 | Вариант 28 | Новикова В. А.";
             groupBoxIn_NVA.ResumeLayout(false);
             groupBoxIn_NVA.PerformLayout();
-            groupBoxOutPut_NVA.ResumeLayout(false);
-            groupBoxOutPut_NVA.PerformLayout();
+            groupBoxOut_NVA.ResumeLayout(false);
+            groupBoxOut_NVA.PerformLayout();
             groupBoxTask_NVA.ResumeLayout(false);
             groupBoxTask_NVA.PerformLayout();
             panelKnopki_NVA.ResumeLayout(false);
@@ -236,12 +236,12 @@
 
         private GroupBox groupBoxIn_NVA;
         private TextBox textBoxIn_NVA;
-        private GroupBox groupBoxOutPut_NVA;
+        private GroupBox groupBoxOut_NVA;
         private TextBox textBoxOut_NVA;
         private GroupBox groupBoxTask_NVA;
         private TextBox textBoxUslovie_NVA;
         private Button buttonOpenFile_NVA;
-        private Button buttonDone_NVA;
+        private Button buttonGet_NVA;
         private OpenFileDialog openFileDialog;
         private ToolTip toolTipOne_NVA;
         private Button buttonHelp_NVA;
