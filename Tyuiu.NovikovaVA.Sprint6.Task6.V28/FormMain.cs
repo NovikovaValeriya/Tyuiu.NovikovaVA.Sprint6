@@ -12,16 +12,16 @@ namespace Tyuiu.NovikovaVA.Sprint6.Task6.V28
 
         private void buttonOpenFile_NVA_Click(object sender, EventArgs e)
         {
-            openFileDialog1.ShowDialog();
-            openFilePath = openFileDialog1.FileName;
+            openFileDialog.ShowDialog();
+            openFilePath = openFileDialog.FileName;
             textBoxIn_NVA.Text = File.ReadAllText(openFilePath);
-            groupBoxIn_NVA.Text = groupBoxIn_NVA.Text + " " + openFileDialog1.FileName;
+            groupBoxIn_NVA.Text = groupBoxIn_NVA.Text + " " + openFileDialog.FileName;
             buttonDone_NVA.Enabled = true;
         }
         private void buttonDone_NVA_Click(object sender, EventArgs e)
         {
             string str = "";
-            textBoxOutPut_NVA.Text = ds.CollectTextFromFile(str, openFilePath);
+            textBoxOut_NVA.Text = ds.CollectTextFromFile(str, openFilePath);
         }
         private void buttonHelp_NVA_Click(object sender, EventArgs e)
         {

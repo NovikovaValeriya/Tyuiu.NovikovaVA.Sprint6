@@ -33,12 +33,12 @@
             groupBoxIn_NVA = new GroupBox();
             textBoxIn_NVA = new TextBox();
             groupBoxOutPut_NVA = new GroupBox();
-            textBoxOutPut_NVA = new TextBox();
+            textBoxOut_NVA = new TextBox();
             groupBoxTask_NVA = new GroupBox();
             textBoxUslovie_NVA = new TextBox();
             buttonOpenFile_NVA = new Button();
             buttonDone_NVA = new Button();
-            openFileDialog1 = new OpenFileDialog();
+            openFileDialog = new OpenFileDialog();
             toolTipOne_NVA = new ToolTip(components);
             buttonHelp_NVA = new Button();
             panelKnopki_NVA = new Panel();
@@ -79,7 +79,7 @@
             // 
             // groupBoxOutPut_NVA
             // 
-            groupBoxOutPut_NVA.Controls.Add(textBoxOutPut_NVA);
+            groupBoxOutPut_NVA.Controls.Add(textBoxOut_NVA);
             groupBoxOutPut_NVA.Location = new Point(3, 11);
             groupBoxOutPut_NVA.Name = "groupBoxOutPut_NVA";
             groupBoxOutPut_NVA.Size = new Size(519, 362);
@@ -87,17 +87,17 @@
             groupBoxOutPut_NVA.TabStop = false;
             groupBoxOutPut_NVA.Text = "Вывод :";
             // 
-            // textBoxOutPut_NVA
+            // textBoxOut_NVA
             // 
-            textBoxOutPut_NVA.BackColor = SystemColors.ButtonHighlight;
-            textBoxOutPut_NVA.Font = new Font("Consolas", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            textBoxOutPut_NVA.Location = new Point(21, 29);
-            textBoxOutPut_NVA.Multiline = true;
-            textBoxOutPut_NVA.Name = "textBoxOutPut_NVA";
-            textBoxOutPut_NVA.ReadOnly = true;
-            textBoxOutPut_NVA.ScrollBars = ScrollBars.Vertical;
-            textBoxOutPut_NVA.Size = new Size(507, 327);
-            textBoxOutPut_NVA.TabIndex = 0;
+            textBoxOut_NVA.BackColor = SystemColors.ButtonHighlight;
+            textBoxOut_NVA.Font = new Font("Consolas", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            textBoxOut_NVA.Location = new Point(21, 29);
+            textBoxOut_NVA.Multiline = true;
+            textBoxOut_NVA.Name = "textBoxOut_NVA";
+            textBoxOut_NVA.ReadOnly = true;
+            textBoxOut_NVA.ScrollBars = ScrollBars.Vertical;
+            textBoxOut_NVA.Size = new Size(507, 327);
+            textBoxOut_NVA.TabIndex = 0;
             // 
             // groupBoxTask_NVA
             // 
@@ -142,9 +142,9 @@
             buttonDone_NVA.UseVisualStyleBackColor = true;
             buttonDone_NVA.Click += buttonDone_NVA_Click;
             // 
-            // openFileDialog1
+            // openFileDialog
             // 
-            openFileDialog1.FileName = "openFileDialog_NVA";
+            openFileDialog.FileName = "openFileDialog_NVA";
             // 
             // toolTipOne_NVA
             // 
@@ -237,12 +237,12 @@
         private GroupBox groupBoxIn_NVA;
         private TextBox textBoxIn_NVA;
         private GroupBox groupBoxOutPut_NVA;
-        private TextBox textBoxOutPut_NVA;
+        private TextBox textBoxOut_NVA;
         private GroupBox groupBoxTask_NVA;
         private TextBox textBoxUslovie_NVA;
         private Button buttonOpenFile_NVA;
         private Button buttonDone_NVA;
-        private OpenFileDialog openFileDialog1;
+        private OpenFileDialog openFileDialog;
         private ToolTip toolTipOne_NVA;
         private Button buttonHelp_NVA;
         private Panel panelKnopki_NVA;
