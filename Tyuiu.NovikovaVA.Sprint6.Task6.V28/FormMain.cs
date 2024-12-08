@@ -21,7 +21,7 @@ namespace Tyuiu.NovikovaVA.Sprint6.Task6.V28
         private void buttonDone_NVA_Click(object sender, EventArgs e)
         {
             string str = "";
-            textBoxOut_NVA.Text = ds.CollectTextFromFile(str, openFilePath);
+            textBoxOut_NVA.Text = ds.CollectTextFromFile( openFilePath);
         }
         private void buttonHelp_NVA_Click(object sender, EventArgs e)
         {
