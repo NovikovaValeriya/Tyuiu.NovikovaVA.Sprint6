@@ -39,7 +39,7 @@
             buttonOpenFile_NVA = new Button();
             buttonGet_NVA = new Button();
             openFileDialog = new OpenFileDialog();
-            toolTipOne_NVA = new ToolTip(components);
+            toolTip_NVA = new ToolTip(components);
             buttonHelp_NVA = new Button();
             panelKnopki_NVA = new Panel();
             panelTask_NVA = new Panel();
@@ -127,7 +127,7 @@
             buttonOpenFile_NVA.Name = "buttonOpenFile_NVA";
             buttonOpenFile_NVA.Size = new Size(94, 87);
             buttonOpenFile_NVA.TabIndex = 18;
-            toolTipOne_NVA.SetToolTip(buttonOpenFile_NVA, "\r\nоткрыть файл\r\nвыберите нужный файл для обработки");
+            toolTip_NVA.SetToolTip(buttonOpenFile_NVA, "\r\nоткрыть файл\r\nвыберите нужный файл для обработки");
             buttonOpenFile_NVA.UseVisualStyleBackColor = true;
             buttonOpenFile_NVA.Click += buttonOpenFile_NVA_Click;
             // 
@@ -138,7 +138,7 @@
             buttonGet_NVA.Name = "buttonGet_NVA";
             buttonGet_NVA.Size = new Size(192, 97);
             buttonGet_NVA.TabIndex = 19;
-            toolTipOne_NVA.SetToolTip(buttonGet_NVA, "\r\nВывести предпоследнее слово каждой строки в результирующею строку и вывести ее в textBoxOut.\r\n");
+            toolTip_NVA.SetToolTip(buttonGet_NVA, "\r\nВывести предпоследнее слово каждой строки в результирующею строку и вывести ее в textBoxOut.\r\n");
             buttonGet_NVA.UseVisualStyleBackColor = true;
             buttonGet_NVA.Click += buttonDone_NVA_Click;
             // 
@@ -146,10 +146,10 @@
             // 
             openFileDialog.FileName = "openFileDialog_NVA";
             // 
-            // toolTipOne_NVA
+            // toolTip_NVA
             // 
-            toolTipOne_NVA.ToolTipIcon = ToolTipIcon.Info;
-            toolTipOne_NVA.ToolTipTitle = "Подсказка";
+            toolTip_NVA.ToolTipIcon = ToolTipIcon.Info;
+            toolTip_NVA.ToolTipTitle = "Подсказка";
             // 
             // buttonHelp_NVA
             // 
@@ -160,7 +160,7 @@
             buttonHelp_NVA.Size = new Size(95, 83);
             buttonHelp_NVA.TabIndex = 20;
             buttonHelp_NVA.TextAlign = ContentAlignment.MiddleRight;
-            toolTipOne_NVA.SetToolTip(buttonHelp_NVA, "Сведения о программе");
+            toolTip_NVA.SetToolTip(buttonHelp_NVA, "Сведения о программе");
             buttonHelp_NVA.UseVisualStyleBackColor = false;
             buttonHelp_NVA.Click += buttonHelp_NVA_Click;
             // 
@@ -243,7 +243,7 @@
         private Button buttonOpenFile_NVA;
         private Button buttonGet_NVA;
         private OpenFileDialog openFileDialog;
-        private ToolTip toolTipOne_NVA;
+        private ToolTip toolTip_NVA;
         private Button buttonHelp_NVA;
         private Panel panelKnopki_NVA;
         private Panel panelTask_NVA;
