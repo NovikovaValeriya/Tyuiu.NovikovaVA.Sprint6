@@ -38,7 +38,7 @@
             textBoxUslovie_NVA = new TextBox();
             buttonOpenFile_NVA = new Button();
             buttonDone_NVA = new Button();
-            openFileDialog_NVA = new OpenFileDialog();
+            openFileDialog1 = new OpenFileDialog();
             toolTipOne_NVA = new ToolTip(components);
             buttonHelp_NVA = new Button();
             panelKnopki_NVA = new Panel();
@@ -142,9 +142,9 @@
             buttonDone_NVA.UseVisualStyleBackColor = true;
             buttonDone_NVA.Click += buttonDone_NVA_Click;
             // 
-            // openFileDialog_NVA
+            // openFileDialog1
             // 
-            openFileDialog_NVA.FileName = "openFileDialog_NVA";
+            openFileDialog1.FileName = "openFileDialog_NVA";
             // 
             // toolTipOne_NVA
             // 
@@ -242,7 +242,7 @@
         private TextBox textBoxUslovie_NVA;
         private Button buttonOpenFile_NVA;
         private Button buttonDone_NVA;
-        private OpenFileDialog openFileDialog_NVA;
+        private OpenFileDialog openFileDialog1;
         private ToolTip toolTipOne_NVA;
         private Button buttonHelp_NVA;
         private Panel panelKnopki_NVA;
